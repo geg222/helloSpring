@@ -1,3 +1,5 @@
 .idea/
 target/
 out/
+
+WEB-INF/props/jdbc.properties

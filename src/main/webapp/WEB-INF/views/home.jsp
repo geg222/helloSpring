@@ -11,6 +11,6 @@
     <title>$Title$</title>
   </head>
   <body>
-  Hello World
+  <p> <a herf = "${pageContext.request.contextPath}/offers"> Show Current Page</a></p>
   </body>
 </html>
