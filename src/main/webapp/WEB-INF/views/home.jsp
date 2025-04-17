@@ -11,6 +11,7 @@
     <title>$Title$</title>
   </head>
   <body>
-  <p> <a herf = "${pageContext.request.contextPath}/offers"> Show Current Page</a></p>
+  <p> <a href = "${pageContext.request.contextPath}/offers"> Show Current Page</a></p>
+  <p> <a href = "${pageContext.request.contextPath}/createoffer"> Add a new offer</a></p>
   </body>
 </html>

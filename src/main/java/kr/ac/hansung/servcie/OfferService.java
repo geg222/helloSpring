@@ -12,7 +12,13 @@ public class OfferService {
     @Autowired
     private OfferDao offerDao; // Dao 호출
 
+    //모든 offer 가져오가
     public List<Offer> getAllOffers() {
         return offerDao.getOffers();
+    }
+
+    //offer 값 넣어주기
+    public void insertOffer(Offer offer) {
+        offerDao.insert(offer);
     }
 }
